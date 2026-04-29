@@ -13,6 +13,7 @@ webcam demos and video recording.
 - Package version: `0.3.0`.
 - Implemented: Windows project-local `.venv` workflow with CUDA PyTorch.
 - Implemented: RTX 4060 Laptop GPU detection through `torch.cuda`.
+- Implemented: MacBook M4 detection through `flow`.
 - Implemented: OpenCV DIS optical-flow backend for an interpretable CV baseline.
 - Implemented: external RIFE adapter using `external/ECCV2022-RIFE` and v3.6
   pretrained weights.
