@@ -1,0 +1,32 @@
+.DS_Store
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Generated outputs and local media
+outputs/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.png
+
+# Logs and local tool artifacts
+*.log
+*.jou
+
+# External model repos, archives, and pretrained weights
+external/
+*.zip
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Large local installers, downloaded papers, and non-source references
+*.exe
+*_CVPR_*_paper.pdf
+rules/
